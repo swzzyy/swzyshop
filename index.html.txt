@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Roupas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛍️ Loja Style</h1>
+  <button onclick="abrirCarrinho()">Carrinho (<span id="contador">0</span>)</button>
+</header>
+
+<main id="produtos"></main>
+
+<div id="carrinho" class="carrinho">
+  <h2>Seu Carrinho</h2>
+  <ul id="listaCarrinho"></ul>
+  <button onclick="fecharCarrinho()">Fechar</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
