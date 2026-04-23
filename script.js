@@ -1,7 +1,8 @@
 const produtos = [
   { id: 1, nome: "Camiseta Preta", preco: 59.90 },
   { id: 2, nome: "Calça Jeans", preco: 129.90 },
-  { id: 3, nome: "Jaqueta", preco: 199.90 }
+  { id: 3, nome: "New Balance 9060", preco: 179,00 },
+  { id: 4, nome: "Jaqueta", preco: 199.90 }
 ];
 
 let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
